@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Star Jedi Outline';
+  src: url('StarJediOutline.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+	font-family: 'Star Jedi Outline';
+	font-weight: 200;
+	color: #D4AF37;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2)) translateY(-42%);
+  z-index: -2;
+  top: 50%;
+}
+
+.dib:hover, .dib:focus {
+  color: #D4AF37;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #D4AF37;
+  opacity: 1; /* Firefox */
+}
